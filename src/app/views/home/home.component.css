@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+ }
+
+header{
+    background-image:linear-gradient(to top, white,#819ac7);
+    height:100px;
+}
+
+.container-grid{
+    width: 100% ;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.menu a{
+    color:black;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+}
+
+
+.menu{
+    width:660px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#carrosel img{
+    display: none;    
+}
+
+#carrosel{
+    width: 100%;
+    height: 600px;
+}
+
+.banner-ativo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.games{
+    height: 50px;
+    width: 100%;
+    font-family: 'Tajawal', sans-serif;
+}
+.games a{
+    font-family: 'Tajawal', sans-serif;
+    width: 1200px;
+    height: 150px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 35px;
+    background-image:linear-gradient(to top, white,#819ac7);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.secao-jogos .grid-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.secao-consoles .grid-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.secao-acessorios .grid-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.informacoes-valores{
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+}
+.pc-gamer img{
+    height: 500px;
+    width: 100%;
+}
+.logo-pc img{
+    height: 500px;
+    width: 100%;
+}
+footer{
+    background-image:linear-gradient(to top, white,#819ac7);
+    width: 100%;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.links h2{
+    font-size: 20px;
+    text-align: center;
+}
+.links ul{
+    list-style-type: none;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+.links img{
+    width: 150px;
+    height: 150px;
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+ section{
+    background-image:linear-gradient(to bottom, white,#819ac7);
+    width: 100%;
+}
+.rodape2{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    text-align: center;
+}
+.rodape2 h2{
+    font-size: 20px;
+    text-align: center; 
+}
+.rodape2 img{
+    width: 80px;
+    height: 70px;
+    justify-items: center;
+}
+
+.redes-sociais{
+    width: 450px;
+}
+
+.icones2{
+    display: flex;
+    justify-content: space-between;
+}
+.icones2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.barras{
+    width:50px ;
+    display: none;
+}
+
+.posicionamento-header{
+    position: relative;
+
+}
+
+   @media screen and (max-width:1200px){
+     .container-grid{
+         width:80% ;  
+      }
+
+      .menu a{
+          font-size:13px ;
+      }
+      .games{
+        width: 100%;
+    }
+      .logo{
+        width:200px ;
+    }
+    .secao-jogos .grid-container img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .secao-consoles .grid-container img{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .secao-acessorios .grid-container img{
+        width: 130px;
+        height: 130px;
+    }
+    
+    h2{
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        height: 50px;
+    }
+
+  }
+
+
+  @media screen and (max-width:768px){
+      .barras{
+        width:30px ;
+        display:inline-block;
+    }
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        width:500px;
+        position: absolute;
+        top:0 ;
+        right:60px ;
+        
+    }
+    .menu a{
+      text-align: center;
+      padding:40px;     
+    }
+.games{
+    width: 100%;
+}
+    .games a{
+        font-size: 15px;
+    }
+
+    
+#carrosel{
+    width: 100%;
+    height: 400px;
+}
+
+
+    .secao-jogos .grid-container img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .secao-consoles .grid-container img{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .secao-acessorios .grid-container img{
+        width: 120px;
+        height: 120px;
+    }
+    
+    h2{
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 500px;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+   
+    .logo-pc img{
+        height: 500px;
+        width: 100%;
+    }
+footer{
+    display: none;
+}
+.rodape{
+    display: none;
+}
+
+.horario{
+    display: none;
+}
+
+    .menu-ativo{
+      display:flex ;
+    }
+}
